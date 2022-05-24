@@ -1,14 +1,13 @@
-public class Calander {
-  
-  public Calander() {
-    
+public class Calender {
+int[][] numbers = new int [5][1];
+  public  Calender() {
+    for(int i = 0; i < numbers.length; i++){ 
+      
+
   }
+}
   
   public void show() {
-   //for(int i = 0; i < something.length; i++) {
-      //for(int j = 0; j < something[0].length; i++) {
-      
-      //}
-    //}
+    
   }
 }
