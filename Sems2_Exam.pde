@@ -1,6 +1,6 @@
 Button b1, b2, b3, b4;
 Workouts w1, w2, w3, w4;
-
+Calendar cl;
 
 public void setup() {
   size(800, 800);
@@ -18,7 +18,9 @@ public void draw() {
   w3.show(); //<>//
   w4.show(); //<>//
   }
-
+  /*if (b1.isClicked()) {
+   //cl.show(); 
+  }*/
 }
 public void mouseReleased() {
   if (b1.isClicked()) {
